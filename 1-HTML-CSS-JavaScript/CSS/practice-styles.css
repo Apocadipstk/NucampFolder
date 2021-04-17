@@ -1,0 +1,40 @@
+body {
+    background: #36b7c0;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(255, 145, 2);
+    font: 32px Garamond, Helvetica, serif;
+    border: plum double 20px;
+    width: 300px;
+}
+
+h2{
+    color: palegoldenrod;
+}
+
+table {
+    width: 50%;
+    border: plum double 20px;
+}
+
+thead {
+    text-align: left;
+    color: rgb(240, 131, 8);
+    
+}
+
+
+label {
+    display: inline-block;
+}
+
+#submit-btn {
+    display: block;
+}
+
+td,th{
+    border: firebrick;
+}
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Practice: CSS Corner Cafe</title>
+    <link rel="stylesheet" href="CSS/practice-styles.css" />
+</head>
+<body>
+    <h1>CSS Corner Cafe</h1>
+    <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+    <section>
+        <h2>Menu</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Burgers</th>
+                    <th>Cost</th>
+                    <th>Speacial</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sweet Home Avacado Combo</td>
+                    <td>$23.96</td>
+                </tr>
+                <tr>
+                    <td>Don't U 4 Cheddar 'Bout Me</td>
+                    <td>$13.45</td>
+                </tr>
+                <tr>
+                    <td>Finding Nemo (Fried Fish)</td>
+                    <td>$18.50</td>
+                </tr>
+                <tr>
+                    <td>Stampede Combo (Lion meat patty)</td>
+                    <td>$30.00</td>
+                </tr>
+                <tr>
+                    <td>Freedom Combo</td>
+                    <td>17.76</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    </section>
+    <section>
+        <h2>Submit Your Review</h2>
+        <fieldset>
+        <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+            <label for="rating">Your Rating:</label>
+            1 <input type="range" id="rating" name="rating" min="1" max="5" /> 5
+            <input type="submit" id="submit-btn" />
+        </form>
+    </section>
+    <section>
+    </fieldset>
+        <h2>Contact</h2>
+        <p>Call us at: <a href="tel:+15555551212">1-555-555-1212</a></p>
+        <address>
+            CSS Corner Cafe<br />
+            101 W Main St<br />
+            Bellevue, WA 98004
+        </address>
+    </section>
+</body>
+</html>
