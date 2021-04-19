@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardBody, CardText, Breadcrumb, BreadcrumbItem  } from "reactstrap";
+import { Card, CardImg, CardBody, CardText, CardTitle,  Breadcrumb, BreadcrumbItem  } from "reactstrap";
 import { Link } from 'react-router-dom';
 
 
@@ -57,13 +57,13 @@ import { Link } from 'react-router-dom';
                         </div>
                     </div>
                     <div className="row">
-                        <RenderCampsite campsite= {props.campsite} />
-                        <RenderComments comments={props.campsite.comments} />
+                        <RenderCampsite campsite={props.campsite} />
+                        <RenderComments comments={props.comments} />
                     </div>
                 </div>
             );
         }
-        return <div />;
+        
 
     }
 
