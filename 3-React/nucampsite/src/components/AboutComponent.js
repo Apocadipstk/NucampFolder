@@ -27,7 +27,7 @@ function PartnerList(props) {
     const partners = props.partners.partners.map(partner => {
         return (
             <Fade in key={partner.id}>
-                <Media tag="li" key={partner.id}>
+                <Media tag="li">
                     <RenderPartner partner={partner} />
                 </Media>
             </Fade>
@@ -42,7 +42,7 @@ function PartnerList(props) {
     if (props.partners.errMess) {
         return (
             <div className='col'>
-                <h4>{props.partner.errorMessage}</h4>
+                <h4>{props.partner.errMess}</h4>
             </div>
         )
     }
